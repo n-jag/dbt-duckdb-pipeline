@@ -8,5 +8,5 @@ SELECT
 	job_work_from_home,
 	search_date,
 	search_term
-FROM dev.main.job_postings
+FROM '../data/raw/raw_job_postings_*.parquet'
 WHERE error IS NULL limit 100
