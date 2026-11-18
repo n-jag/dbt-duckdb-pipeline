@@ -7,7 +7,9 @@ authors = [
     { name = "Jagathesan", email = "your-email@example.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "dbt-duckdb>=1.11.1",
+]
 
 [project.scripts]
 dbt-duckdb-pipeline = "dbt_duckdb_pipeline:main"
